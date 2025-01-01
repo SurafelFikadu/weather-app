@@ -106,3 +106,41 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 500px) {
+    .card {
+        padding: 40px 20px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+    }
+
+    .details {
+        padding: 0 10px;
+    }
+
+    .col img {
+        width: 30px;
+    }
+
+    .humidity,
+    .wind {
+        font-size: 24px;
+    }
+
+    /* search */
+    .search input {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+}
